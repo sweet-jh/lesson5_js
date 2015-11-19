@@ -1,6 +1,6 @@
 var bookmarks;
 var keywords;
-$.getJSON("../bookmarks.json",function(data)
+$.getJSON("http://sweet-jh.github.io/lesson5_js/bookmarks.json",function(data)
 {
   bookmarks=data;
 });
