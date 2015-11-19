@@ -1,6 +1,6 @@
 var bookmarks;
 var keywords;
-$.getJSON("bookmarks.json",function(data)
+$.getJSON("../bookmarks.json",function(data)
 {
   bookmarks=data;
 });
